@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>93</title>
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+        }
+        .navi {
+            width: 960px;
+            height: 60px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ccc;
+        }
+        .navi ul {
+            list-style: none;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+        .navi ul li {
+            float: left;
+            width: 150px;
+            padding: 10px;
+        }
+        .navi a:link, .navi a:visited {
+            display: block;
+            font-size: 14px;
+            color: #000;
+            padding: 10px;
+            text-decoration: none; /* 밑줄 없앰 */
+            text-align: center;
+        }
+        .navi a:hover, .navi a:focus {
+            background-color: #222; /* 배경 색 */
+            color: #fff; /* 글자 색 */
+        }
+        .navi a:active {
+            background-color: #f00; /* 배경 색 */
+        }
+        .contents {
+            margin: 30px auto;
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #222;
+            border-radius: 5px;
+        }
+        #intro:target {
+            background-color: #0069e0;
+            color: #fff;
+        }
+        #room:target {
+            background-color: #ff9844;
+        }
+        #reservation:target {
+            background-color: #fff9dc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navi">
+            <ul>
+                <li><a href="#intro">이용 안내</a></li>
+                <li><a href="#room">객실 소개</a></li>
+                <li><a href="#reservation">예약 방법 및 요금</a></li>
+                <li><a href="#ps-2.html">이용 안내</a></li>
+            </ul>
+        </nav>
+        <div id="intro" class="contents">
+            <h2>이용 안내</h2>
+            <p>Ex et adipisicing voluptate aliqua cupidatat nulla. Laboris est sint sit aliqua enim. Aute Lorem eu sint aute sunt proident. Do culpa consectetur
+                elit duis laboris reprehenderit incididunt nulla. Pariatur fugiat voluptate ea non amet cupidatat.</p>
+        </div>
+        <div id="room" class="contents">
+            <h2>객실 소개</h2>
+            <p>Lorem ipsum reprehenderit adipisicing exercitation enim velit veniam incididunt sit consectetur elit exercitation. Magna Lorem excepteur
+                occaecat cupidatat sunt proident tempor do nostrud labore cillum non exercitation voluptate.</p>
+        </div>
+        <div id="reservation" class="contents">
+            <h2>예약 방법 및 요금</h2>
+            <p>Ex et adipisicing voluptate aliqua cupidatat nulla. Laboris est sint sit aliqua enim. Aute Lorem eu sint aute sunt proident. Do culpa consectetur
+                elit duis laboris reprehenderit incididunt nulla. Pariatur fugiat voluptate ea non amet cupidatat.</p>
+        </div>
+    </div>
+</body>
+</html>
